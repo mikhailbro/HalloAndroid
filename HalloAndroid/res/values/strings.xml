@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, HalloAndroidActivity!</string>
+    <string name="app_name">Hallo Android!</string>
+    <string name="halloandroid">Hallo Android!</string>
+    <string name="halloandroid_quer">Hallo Android im Querformat!</string>
+    <string name="saghallo">Sag Hallo</string>
+    <string name="eintoast">Ein Toast!</string>
+    <string name="willkommen">Willkommen!</string>
+    <string name="toast">Hallo %s, ein Toast auf Sie!</string>
+    <string name="saghallotext">Hallo lieber %s</string>
+    <string name="ok">OK</string>
+    <string name="abbruch">Abbruch</string>
+    <string name="hallo2">Hallo, dies ist die zweite Activity</string>
+    <string name="buttonStartActivity2">Activity 2 starten</string>
+    <string name="halloActivity2">Hallo Activity zwei!</string>
+    <string name="buttonChooseImage">Bild auswählen</string>
+
+</resources>

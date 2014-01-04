@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:drawable="@drawable/androidrobot1" android:duration="750" />
+    <item android:drawable="@drawable/androidrobot2" android:duration="450" />
+    <item android:drawable="@drawable/androidrobot3" android:duration="350" />
+    <item android:drawable="@drawable/androidrobot2" android:duration="450" />
+	<item android:drawable="@drawable/androidrobot1" android:duration="750" />
+    <item android:drawable="@drawable/androidrobot2" android:duration="450" />
+    <item android:drawable="@drawable/androidrobot3" android:duration="350" />
+    
+</animation-list>

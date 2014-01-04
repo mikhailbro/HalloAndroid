@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<ImageView
+	    android:id="@+id/imageViewHalloAndroidKopf"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:contentDescription="@string/app_name"
+	    android:scaleType="center"
+	    android:src="@drawable/animated_skater" />
+	
+	<TextView
+        android:id="@+id/textViewHalloAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/halloandroid"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	<EditText
+        android:id="@+id/editTextVornameNachname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/buttonToast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eintoast" />
+
+        <Button
+            android:id="@+id/buttonSagHallo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saghallo" />
+		<Button
+            android:id="@+id/buttonWillkommen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/willkommen" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonStartActivity2"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonStartActivity2" />
+
+</LinearLayout>
